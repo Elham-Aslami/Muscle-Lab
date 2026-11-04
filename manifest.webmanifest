@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Anatomy Practical 2 Trainer",
+  "short_name": "Anatomy P2",
+  "description": "Study-guide focused anatomy practice with an interactive 3D reference.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f6",
+  "theme_color": "#112e36",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

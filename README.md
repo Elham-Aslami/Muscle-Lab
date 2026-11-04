@@ -2,17 +2,6 @@
 
 This folder is ready to upload. The current app includes the fuller, non-clickable anatomical context and the camera-selection fix, plus phone home-screen icons, offline caching, and a mobile grid-width fix. No installation, API key, backend, or build command is needed to publish the prepared files.
 
-## Publish with GitHub's website
-
-1. Extract `Anatomy_Practical_2_GitHub_Pages.zip` on your computer.
-2. Create a GitHub repository, for example `anatomy-practical-2`. GitHub Free supports Pages from public repositories; eligible paid plans also support private repositories. Read the publishing note below before choosing public visibility.
-3. Choose **Add file → Upload files**. Upload the extracted folder's **contents**, including `index.html` and the `icons`, `app`, and `scripts` folders. Do not upload the ZIP itself. `index.html` must appear at the top level of the repository.
-4. Commit the files to the `main` branch.
-5. Open **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then **main** and **/(root)**. Click **Save**.
-6. Wait for deployment, then use the **Visit site** link in Pages settings. Your project URL will normally be `https://YOUR-USERNAME.github.io/anatomy-practical-2/`, using your actual GitHub username and repository name. Publishing can take up to ten minutes.
-
-Official instructions: [GitHub Pages publishing sources](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) and [creating a Pages site](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
-
 ## Open it on your phone
 
 Open the published HTTPS website link in your phone's browser. You do not need to download the HTML onto the phone.
@@ -59,6 +48,3 @@ For a local web preview, run `python -m http.server 8000` from this folder and o
 
 Optional anatomy preparation scripts in `app/` retain the original asset-processing workflow. They require the original source assets and Python dependencies and are not needed to build or publish this prepared app.
 
-## Publishing note
-
-GitHub Pages sites are normally public even when their source repository is private. Workbook figures in this app were provided for personal study; public redistribution permissions have not been verified. Obtain permission or replace those figures with appropriately licensed alternatives before public distribution. Keep the model/software attributions in `NOTICE.md`. No site has been published on your behalf by preparing this package.
